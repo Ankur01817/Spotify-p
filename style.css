@@ -1,0 +1,113 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0px 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+.logo{
+    width: 100%;
+}
+.main{
+    flex: 1;
+}
+h1{
+    font-size: 5rem;
+}
+footer{
+    text-align: right;
+    color: midnightblue;
+}
+.image{
+    height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.image1{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 50px;
+}
+#image2{
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-left: 50px;
+}
+.creative {
+    color: midnightblue;
+  }
+  .card{
+    width: 45%;
+  }
+  .left{
+    float: left;
+    margin-bottom: 80px;
+  }
+  .right{
+    float: right;
+    margin-bottom: 80px;
+  }
+  @media (max-width:650px){
+    .logo {
+        width: 100px;
+    }
+    h1 {
+        font-size: 3.5rem;
+        text-align: center;
+      }
+    .card{
+        width: 100px;
+        display: block;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+    .image{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover; 
+    }
+    #image2{
+        float: right;
+    }
+  }
+  header {
+    background-color: #1DB954;
+    padding: 20px;
+    color: white;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .search-bar {
+    margin-top: 20px;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    width: 200px;
+  }
+  
+  .search-bar button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
